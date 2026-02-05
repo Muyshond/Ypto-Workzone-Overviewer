@@ -1,0 +1,134 @@
+<mvc:View
+    controllerName="com.yteria.workzoneoverviewer.controller.Overview"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    xmlns:table="sap.ui.table">
+    
+    <Page title="SAP Workzone - Role Hierarchy Analysis">
+        <content>
+            <VBox class="sapUiSmallMargin">
+                <HBox justifyContent="SpaceBetween" class="sapUiSmallMarginBottom">
+                    <VBox>
+                        <Label text="Total Roles: {/statistics/totalRoles}" class="sapUiTinyMarginBottom"/>
+                        <Label text="Total Spaces: {/statistics/totalSpaces}" class="sapUiTinyMarginBottom"/>
+                        <Label text="Total Pages: {/statistics/totalPages}" class="sapUiTinyMarginBottom"/>
+                        <Label text="Total Apps: {/statistics/totalApps}"/>
+                    </VBox>
+                </HBox>
+                
+                <table:TreeTable
+                    id="roleTree"
+                    rows="{
+                        path: '/roles',
+                        parameters: {
+                            arrayNames: ['children']
+                        }
+                    }"
+                    selectionMode="None"
+                    enableColumnReordering="false"
+                    visibleRowCount="20"
+                    minAutoRowCount="10"
+                    width="100%"
+                    rowHeight="40">
+                    
+                    <table:columns>
+                        <table:Column width="25rem" sortProperty="title" filterProperty="title">
+                            <Label text="ID"/>
+                            <table:template>
+                                <HBox alignItems="Center">
+                                    <core:Icon 
+                                        src="{= ${type} === 'role' ? 'sap-icon://role' : 
+                                               ${type} === 'space' ? 'sap-icon://home' : 
+                                               ${type} === 'page' ? 'sap-icon://document' : 
+                                               'sap-icon://product' }"
+                                        color="{= ${type} === 'role' ? '#000000' : 
+                                                  ${type} === 'space' ? '#0070F2' : 
+                                                  ${type} === 'page' ? '#6C6C6C' : 
+                                                  '#32363A' }"
+                                        class="sapUiTinyMarginEnd"/>
+                                    <VBox>
+                                        <Text text="{id}" wrapping="false"/>
+                                        <Text 
+                                            visible="{= !!${fullId} }"
+                                            class="sapUiTinyMarginTop">
+                                            <customData>
+                                                <core:CustomData key="style" value="font-size:0.75rem;color:#6a6d70;"/>
+                                            </customData>
+                                        </Text>
+                                    </VBox>
+                                </HBox>
+                            </table:template>
+                        </table:Column>
+
+                           <table:Column width="6rem" sortProperty="type" filterProperty="type">
+                            <Label text="Name"/>
+                            <table:template>
+                                <ObjectStatus 
+                                    text="{title}"
+                                   />
+                            </table:template>
+                        </table:Column>
+                        
+                        <table:Column width="6rem"  sortProperty="type" filterProperty="type">
+                            <Label text="Type"/>
+                            <table:template>
+                                <ObjectStatus 
+                                    text="{type}"
+                                    state="{= ${type} === 'role' ? 'None' : 
+                                             ${type} === 'space' ? 'Information' : 
+                                             ${type} === 'page' ? 'Warning' : 
+                                             'Success' }"/>
+                            </table:template>
+                        </table:Column>
+
+                     
+                        
+                        <table:Column width="8rem" hAlign="Center" sortProperty="spaceCount">
+                            <Label text="Spaces"/>
+                            <table:template>
+                                <ObjectNumber
+                                    number="{spaceCount}"
+                                    visible="{= ${type} === 'role' }"
+                                    emphasized="true"
+                                    state="{= ${spaceCount} > 0 ? 'Success' : 'None' }"/>
+                            </table:template>
+                        </table:Column>
+                        
+                        <table:Column width="8rem" hAlign="Center" sortProperty="pageCount">
+                            <Label text="Pages"/>
+                            <table:template>
+                                <ObjectNumber
+                                    number="{= ${type} === 'role' ? ${totalPages} : ${pageCount} }"
+                                    visible="{= ${type} === 'role' || ${type} === 'space' }"
+                                    emphasized="true"
+                                    state="{= (${totalPages} || ${pageCount}) > 0 ? 'Success' : 'None' }"/>
+                            </table:template>
+                        </table:Column>
+                        
+                        <table:Column width="8rem" hAlign="Center" sortProperty="appCount">
+                            <Label text="Apps"/>
+                            <table:template>
+                                <ObjectNumber
+                                    number="{= ${type} === 'role' ? ${totalApps} : ${appCount} }"
+                                    visible="{= ${type} !== 'app' }"
+                                    emphasized="true"
+                                    state="{= (${totalApps} || ${appCount}) > 0 ? 'Success' : 'None' }"/>
+                            </table:template>
+                        </table:Column>
+                        
+                        <table:Column width="10rem" sortProperty="providerId" filterProperty="providerId">
+                            <Label text="Provider"/>
+                            <table:template>
+                                <Text 
+                                    text="{= ${type} === 'role' ? (${providerId} ? ${providerId} : 'BTP') : '' }" 
+                                    visible="{= ${type} === 'role' }"
+                                    wrapping="false"/>
+                            </table:template>
+                        </table:Column>
+                    </table:columns>
+                </table:TreeTable>
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>

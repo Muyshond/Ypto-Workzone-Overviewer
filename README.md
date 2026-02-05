@@ -1,36 +1,14 @@
-## Application Details
-|               |
-| ------------- |
-|**Generation Date and Time**<br>Thu Feb 05 2026 10:08:24 GMT+0000 (Coordinated Universal Time)|
-|**App Generator**<br>SAP Fiori Application Generator|
-|**App Generator Version**<br>1.20.2|
-|**Generation Platform**<br>SAP Business Application Studio|
-|**Template Used**<br>Basic|
-|**Service Type**<br>None|
-|**Service URL**<br>N/A|
-|**Module Name**<br>workzoneoverviewer|
-|**Application Title**<br>Workzone overviewer|
-|**Namespace**<br>com.yteria|
-|**UI5 Theme**<br>sap_horizon|
-|**UI5 Version**<br>1.144.1|
-|**Enable TypeScript**<br>True|
-|**Add Eslint configuration**<br>False|
+# SAP Workzone export Viewer
+## Description  
+This is a simple frontend to prove that it is possible to display workzone info   
+use the tool: https://github.com/Muyshond/Ypto-Workzone-ExportTool to export the data and put it in the right format. 
+Add the json to webapp/model/ directory.  
 
-## workzoneoverviewer
-
-An SAP Fiori application.
-
-### Starting the generated app
-
--   This app has been generated using the SAP Fiori tools - App Generator, as part of the SAP Fiori tools suite.  To launch the generated application, run the following from the generated application root folder:
-
+## How to use
 ```
-    npm start
+npm run start
 ```
 
-#### Pre-requisites:
-
-1. Active NodeJS LTS (Long Term Support) version and associated supported NPM version.  (See https://nodejs.org)
 
 
-# Ypto-Workzone-Overviewer
+

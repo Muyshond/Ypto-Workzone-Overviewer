@@ -1,0 +1,98 @@
+{
+  "_version": "1.81.0",
+  "sap.app": {
+    "id": "com.yteria.workzoneoverviewer",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap/generator-fiori:basic",
+      "version": "1.20.2",
+      "toolsId": "a38d4600-d3f1-42a7-b8be-56f961da43ed"
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": true,
+    "dependencies": {
+      "minUI5Version": "1.144.1",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "com.yteria.workzoneoverviewer.i18n.i18n"
+        }
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "controlAggregation": "pages",
+        "controlId": "app",
+        "transition": "slide",
+        "type": "View",
+        "viewType": "XML",
+        "path": "com.yteria.workzoneoverviewer.view",
+        "async": true,
+        "viewPath": "com.yteria.workzoneoverviewer.view"
+      },
+      "routes": [
+        {
+          "name": "Routeoverview",
+          "pattern": ":?query:",
+          "target": [
+            "Targetoverview"
+          ]
+        }
+      ],
+      "targets": {
+        "Targetoverview": {
+          "id": "overview",
+          "name": "overview"
+        }
+      }
+    },
+    "rootView": {
+      "viewName": "com.yteria.workzoneoverviewer.view.App",
+      "type": "XML",
+      "id": "App",
+      "async": true
+    }
+  }
+}
