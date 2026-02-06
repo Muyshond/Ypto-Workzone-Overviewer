@@ -118,7 +118,7 @@
       "providerId": null,
       "spaceCount": 14,
       "totalPages": 32,
-      "totalApps": 224,
+      "totalApps": 228,
       "children": [
         {
           "id": "291fbc7c-6b44-484b-bc38-99b330f47911",
@@ -1844,6 +1844,30 @@
               ]
             }
           ]
+        },
+        {
+          "id": "saas_approuter_be.nmbs.plugins.wzanalyticspluginshellapp",
+          "type": "app",
+          "title": "be.nmbs.plugins.wzanalyticspluginshellapp",
+          "fullId": "saas_approuter_be.nmbs.plugins.wzanalyticspluginshellapp"
+        },
+        {
+          "id": "saas_approuter_be.nmbs.plugins.wzdeactivatehome",
+          "type": "app",
+          "title": "be.nmbs.plugins.wzdeactivatehome",
+          "fullId": "saas_approuter_be.nmbs.plugins.wzdeactivatehome"
+        },
+        {
+          "id": "saas_approuter_be.nmbs.plugins.laserscanningplugin",
+          "type": "app",
+          "title": "be.nmbs.plugins.laserscanningplugin",
+          "fullId": "saas_approuter_be.nmbs.plugins.laserscanningplugin"
+        },
+        {
+          "id": "saas_approuter_be.nmbs.wzpluginlanguageswitch",
+          "type": "app",
+          "title": "be.nmbs.wzpluginlanguageswitch",
+          "fullId": "saas_approuter_be.nmbs.wzpluginlanguageswitch"
         }
       ]
     },
@@ -1855,8 +1879,63 @@
       "providerId": null,
       "spaceCount": 0,
       "totalPages": 0,
-      "totalApps": 0,
-      "children": []
+      "totalApps": 9,
+      "children": [
+        {
+          "id": "saas_approuter_be.nmbs.scanner",
+          "type": "app",
+          "title": "be.nmbs.scanner",
+          "fullId": "saas_approuter_be.nmbs.scanner"
+        },
+        {
+          "id": "saas_approuter_be.nmbs.scm.zscmgoodsreceipt",
+          "type": "app",
+          "title": "be.nmbs.scm.zscmgoodsreceipt",
+          "fullId": "saas_approuter_be.nmbs.scm.zscmgoodsreceipt"
+        },
+        {
+          "id": "saas_approuter_be.nmbs.scm.zscmcycleinventory",
+          "type": "app",
+          "title": "be.nmbs.scm.zscmcycleinventory",
+          "fullId": "saas_approuter_be.nmbs.scm.zscmcycleinventory"
+        },
+        {
+          "id": "saas_approuter_be.nmbs.scm.zscmusersettings",
+          "type": "app",
+          "title": "be.nmbs.scm.zscmusersettings",
+          "fullId": "saas_approuter_be.nmbs.scm.zscmusersettings"
+        },
+        {
+          "id": "saas_approuter_be.nmbs.scm.zscmpicking",
+          "type": "app",
+          "title": "be.nmbs.scm.zscmpicking",
+          "fullId": "saas_approuter_be.nmbs.scm.zscmpicking"
+        },
+        {
+          "id": "saas_approuter_be.nmbs.plugins.laserscanningplugin",
+          "type": "app",
+          "title": "be.nmbs.plugins.laserscanningplugin",
+          "fullId": "saas_approuter_be.nmbs.plugins.laserscanningplugin"
+        },
+        {
+          "id": "saas_approuter_be.nmbs.scm.zscmmanualmove",
+          "type": "app",
+          "title": "be.nmbs.scm.zscmmanualmove",
+          "fullId": "saas_approuter_be.nmbs.scm.zscmmanualmove"
+        },
+        {
+          "id": "saas_approuter_be.nmbs.scm.zscmputaway",
+          "type": "app",
+          "title": "be.nmbs.scm.zscmputaway",
+          "fullId": "saas_approuter_be.nmbs.scm.zscmputaway"
+        },
+        {
+          "id": "saas_approuter_be.nmbs.scm.zscmspotinventory",
+          "type": "app",
+          "title": "be.nmbs.scm.zscmspotinventory",
+          "fullId": "saas_approuter_be.nmbs.scm.zscmspotinventory"
+        }
+      ]
     },
     {
       "id": "WZ_LOCAL_EMM_BTC",
@@ -1866,7 +1945,7 @@
       "providerId": null,
       "spaceCount": 1,
       "totalPages": 1,
-      "totalApps": 11,
+      "totalApps": 24,
       "children": [
         {
           "id": "8f093ba8-94f3-4e7b-a3c9-8cce7daba59b",
@@ -1950,6 +2029,84 @@
               ]
             }
           ]
+        },
+        {
+          "id": "saas_approuter_matconmaster",
+          "type": "app",
+          "title": "matconmaster",
+          "fullId": "saas_approuter_matconmaster"
+        },
+        {
+          "id": "saas_approuter_be.nmbs.plugins.nfcscanning",
+          "type": "app",
+          "title": "be.nmbs.plugins.nfcscanning",
+          "fullId": "saas_approuter_be.nmbs.plugins.nfcscanning"
+        },
+        {
+          "id": "saas_approuter_userParameters",
+          "type": "app",
+          "title": "userParameters",
+          "fullId": "saas_approuter_userParameters"
+        },
+        {
+          "id": "saas_approuter_NFCManagement",
+          "type": "app",
+          "title": "NFCManagement",
+          "fullId": "saas_approuter_NFCManagement"
+        },
+        {
+          "id": "saas_approuter_Validation.validation",
+          "type": "app",
+          "title": "Validation.validation",
+          "fullId": "saas_approuter_Validation.validation"
+        },
+        {
+          "id": "saas_approuter_zopsafterdetail",
+          "type": "app",
+          "title": "zopsafterdetail",
+          "fullId": "saas_approuter_zopsafterdetail"
+        },
+        {
+          "id": "saas_approuter_be.nmbs.zopsprogress",
+          "type": "app",
+          "title": "be.nmbs.zopsprogress",
+          "fullId": "saas_approuter_be.nmbs.zopsprogress"
+        },
+        {
+          "id": "saas_approuter_Chronos",
+          "type": "app",
+          "title": "Chronos",
+          "fullId": "saas_approuter_Chronos"
+        },
+        {
+          "id": "saas_approuter_zopsafter",
+          "type": "app",
+          "title": "zopsafter",
+          "fullId": "saas_approuter_zopsafter"
+        },
+        {
+          "id": "saas_approuter_be.nmbs.metrix",
+          "type": "app",
+          "title": "be.nmbs.metrix",
+          "fullId": "saas_approuter_be.nmbs.metrix"
+        },
+        {
+          "id": "saas_approuter_area51.Area51",
+          "type": "app",
+          "title": "area51.Area51",
+          "fullId": "saas_approuter_area51.Area51"
+        },
+        {
+          "id": "saas_approuter_be.nmbs.sapstartredirect",
+          "type": "app",
+          "title": "be.nmbs.sapstartredirect",
+          "fullId": "saas_approuter_be.nmbs.sapstartredirect"
+        },
+        {
+          "id": "saas_approuter_zopsnotif",
+          "type": "app",
+          "title": "zopsnotif",
+          "fullId": "saas_approuter_zopsnotif"
         }
       ]
     },
@@ -2031,8 +2188,285 @@
       "providerId": null,
       "spaceCount": 0,
       "totalPages": 0,
-      "totalApps": 0,
-      "children": []
+      "totalApps": 46,
+      "children": [
+        {
+          "id": "7499afa8-bd6c-4673-a571-076dd5e53ee5",
+          "type": "app",
+          "title": "7499afa8-bd6c-4673-a571-076dd5e53ee5",
+          "fullId": "7499afa8-bd6c-4673-a571-076dd5e53ee5"
+        },
+        {
+          "id": "bb8984bb-141f-48a2-8cd8-46c7545c8cda",
+          "type": "app",
+          "title": "bb8984bb-141f-48a2-8cd8-46c7545c8cda",
+          "fullId": "bb8984bb-141f-48a2-8cd8-46c7545c8cda"
+        },
+        {
+          "id": "564ebc20-fd72-450b-9192-db101c79d791",
+          "type": "app",
+          "title": "564ebc20-fd72-450b-9192-db101c79d791",
+          "fullId": "564ebc20-fd72-450b-9192-db101c79d791"
+        },
+        {
+          "id": "3f070b20-ced7-4d5b-bbcb-633672d478ea",
+          "type": "app",
+          "title": "3f070b20-ced7-4d5b-bbcb-633672d478ea",
+          "fullId": "3f070b20-ced7-4d5b-bbcb-633672d478ea"
+        },
+        {
+          "id": "7b92ed76-74a5-409f-a605-e1ad38643bb5",
+          "type": "app",
+          "title": "7b92ed76-74a5-409f-a605-e1ad38643bb5",
+          "fullId": "7b92ed76-74a5-409f-a605-e1ad38643bb5"
+        },
+        {
+          "id": "19241a7b-39a4-441f-9b50-e4a587ea7440",
+          "type": "app",
+          "title": "19241a7b-39a4-441f-9b50-e4a587ea7440",
+          "fullId": "19241a7b-39a4-441f-9b50-e4a587ea7440"
+        },
+        {
+          "id": "bc8128ec-ce99-4f73-9ab6-6b38c831d57f",
+          "type": "app",
+          "title": "bc8128ec-ce99-4f73-9ab6-6b38c831d57f",
+          "fullId": "bc8128ec-ce99-4f73-9ab6-6b38c831d57f"
+        },
+        {
+          "id": "20561ffa-43b4-4277-b2a7-7ae5897dda03",
+          "type": "app",
+          "title": "20561ffa-43b4-4277-b2a7-7ae5897dda03",
+          "fullId": "20561ffa-43b4-4277-b2a7-7ae5897dda03"
+        },
+        {
+          "id": "a26b6fb4-c4e3-4829-b895-4961d4a6f926",
+          "type": "app",
+          "title": "a26b6fb4-c4e3-4829-b895-4961d4a6f926",
+          "fullId": "a26b6fb4-c4e3-4829-b895-4961d4a6f926"
+        },
+        {
+          "id": "024aef62-6513-4956-a72e-c4bea7c92237",
+          "type": "app",
+          "title": "024aef62-6513-4956-a72e-c4bea7c92237",
+          "fullId": "024aef62-6513-4956-a72e-c4bea7c92237"
+        },
+        {
+          "id": "384613d5-6dca-42f4-b704-3b7e6b5ebe8c",
+          "type": "app",
+          "title": "384613d5-6dca-42f4-b704-3b7e6b5ebe8c",
+          "fullId": "384613d5-6dca-42f4-b704-3b7e6b5ebe8c"
+        },
+        {
+          "id": "5ecb73ae-2962-4094-981a-20c65f246d75",
+          "type": "app",
+          "title": "5ecb73ae-2962-4094-981a-20c65f246d75",
+          "fullId": "5ecb73ae-2962-4094-981a-20c65f246d75"
+        },
+        {
+          "id": "f1872bcb-2e0e-4f45-b5ec-1c930e083af4",
+          "type": "app",
+          "title": "f1872bcb-2e0e-4f45-b5ec-1c930e083af4",
+          "fullId": "f1872bcb-2e0e-4f45-b5ec-1c930e083af4"
+        },
+        {
+          "id": "ab5ec544-7565-4033-ad94-3c41b255a5fe",
+          "type": "app",
+          "title": "ab5ec544-7565-4033-ad94-3c41b255a5fe",
+          "fullId": "ab5ec544-7565-4033-ad94-3c41b255a5fe"
+        },
+        {
+          "id": "f2b95179-74f5-4900-a17d-bb0c04670d32",
+          "type": "app",
+          "title": "f2b95179-74f5-4900-a17d-bb0c04670d32",
+          "fullId": "f2b95179-74f5-4900-a17d-bb0c04670d32"
+        },
+        {
+          "id": "e275e3d8-c45b-4cab-91c3-e4447b8520af",
+          "type": "app",
+          "title": "e275e3d8-c45b-4cab-91c3-e4447b8520af",
+          "fullId": "e275e3d8-c45b-4cab-91c3-e4447b8520af"
+        },
+        {
+          "id": "1a346cc7-7068-48f4-a70b-b6171302f801",
+          "type": "app",
+          "title": "1a346cc7-7068-48f4-a70b-b6171302f801",
+          "fullId": "1a346cc7-7068-48f4-a70b-b6171302f801"
+        },
+        {
+          "id": "c82eb61d-3283-4714-9617-791563f8c20f",
+          "type": "app",
+          "title": "c82eb61d-3283-4714-9617-791563f8c20f",
+          "fullId": "c82eb61d-3283-4714-9617-791563f8c20f"
+        },
+        {
+          "id": "527dbb1d-5e90-4c76-af5b-450039a490ca",
+          "type": "app",
+          "title": "527dbb1d-5e90-4c76-af5b-450039a490ca",
+          "fullId": "527dbb1d-5e90-4c76-af5b-450039a490ca"
+        },
+        {
+          "id": "16172530-8e70-4c92-b263-d641b7947e82",
+          "type": "app",
+          "title": "16172530-8e70-4c92-b263-d641b7947e82",
+          "fullId": "16172530-8e70-4c92-b263-d641b7947e82"
+        },
+        {
+          "id": "048bf286-7c66-445c-85e8-0bfdd97da4a6",
+          "type": "app",
+          "title": "048bf286-7c66-445c-85e8-0bfdd97da4a6",
+          "fullId": "048bf286-7c66-445c-85e8-0bfdd97da4a6"
+        },
+        {
+          "id": "fd96d773-1efc-46c8-9572-8cc8fd9c6c88",
+          "type": "app",
+          "title": "fd96d773-1efc-46c8-9572-8cc8fd9c6c88",
+          "fullId": "fd96d773-1efc-46c8-9572-8cc8fd9c6c88"
+        },
+        {
+          "id": "477d2f4d-293b-4877-9c53-c6f0e640befa",
+          "type": "app",
+          "title": "477d2f4d-293b-4877-9c53-c6f0e640befa",
+          "fullId": "477d2f4d-293b-4877-9c53-c6f0e640befa"
+        },
+        {
+          "id": "92433bc1-d2cf-4bc1-a476-cc73a6a971f5",
+          "type": "app",
+          "title": "92433bc1-d2cf-4bc1-a476-cc73a6a971f5",
+          "fullId": "92433bc1-d2cf-4bc1-a476-cc73a6a971f5"
+        },
+        {
+          "id": "6fac1034-b5e8-4736-b941-1370f432870d",
+          "type": "app",
+          "title": "6fac1034-b5e8-4736-b941-1370f432870d",
+          "fullId": "6fac1034-b5e8-4736-b941-1370f432870d"
+        },
+        {
+          "id": "031c2608-f288-462b-8119-f7b8ba5b65eb",
+          "type": "app",
+          "title": "031c2608-f288-462b-8119-f7b8ba5b65eb",
+          "fullId": "031c2608-f288-462b-8119-f7b8ba5b65eb"
+        },
+        {
+          "id": "f441f31b-0960-44e1-a768-57f8a42dd6ae",
+          "type": "app",
+          "title": "f441f31b-0960-44e1-a768-57f8a42dd6ae",
+          "fullId": "f441f31b-0960-44e1-a768-57f8a42dd6ae"
+        },
+        {
+          "id": "953c7a9a-3fb0-44ae-96b2-6ab951351140",
+          "type": "app",
+          "title": "953c7a9a-3fb0-44ae-96b2-6ab951351140",
+          "fullId": "953c7a9a-3fb0-44ae-96b2-6ab951351140"
+        },
+        {
+          "id": "3ffaecf4-1526-4f05-a0ad-735e7db6762d",
+          "type": "app",
+          "title": "3ffaecf4-1526-4f05-a0ad-735e7db6762d",
+          "fullId": "3ffaecf4-1526-4f05-a0ad-735e7db6762d"
+        },
+        {
+          "id": "303d0e01-17d3-4850-a8fb-032a635b3344",
+          "type": "app",
+          "title": "303d0e01-17d3-4850-a8fb-032a635b3344",
+          "fullId": "303d0e01-17d3-4850-a8fb-032a635b3344"
+        },
+        {
+          "id": "e69565ab-8bbf-4729-ab94-a558cb8f94a5",
+          "type": "app",
+          "title": "e69565ab-8bbf-4729-ab94-a558cb8f94a5",
+          "fullId": "e69565ab-8bbf-4729-ab94-a558cb8f94a5"
+        },
+        {
+          "id": "012758e0-ef83-4843-8611-4f9f0e79c0e1",
+          "type": "app",
+          "title": "012758e0-ef83-4843-8611-4f9f0e79c0e1",
+          "fullId": "012758e0-ef83-4843-8611-4f9f0e79c0e1"
+        },
+        {
+          "id": "fd1539bc-7508-439c-8c52-b0068038c38f",
+          "type": "app",
+          "title": "fd1539bc-7508-439c-8c52-b0068038c38f",
+          "fullId": "fd1539bc-7508-439c-8c52-b0068038c38f"
+        },
+        {
+          "id": "2cfa30b4-676c-468e-a60b-8db39dca0f27",
+          "type": "app",
+          "title": "2cfa30b4-676c-468e-a60b-8db39dca0f27",
+          "fullId": "2cfa30b4-676c-468e-a60b-8db39dca0f27"
+        },
+        {
+          "id": "5a82b3af-9bf4-4ace-b7dd-162d44fc7c6b",
+          "type": "app",
+          "title": "5a82b3af-9bf4-4ace-b7dd-162d44fc7c6b",
+          "fullId": "5a82b3af-9bf4-4ace-b7dd-162d44fc7c6b"
+        },
+        {
+          "id": "78700bbd-65ea-41f4-8276-479fac32c6ca",
+          "type": "app",
+          "title": "78700bbd-65ea-41f4-8276-479fac32c6ca",
+          "fullId": "78700bbd-65ea-41f4-8276-479fac32c6ca"
+        },
+        {
+          "id": "3814945a-d60a-4f6d-bd83-251f0aa942ba",
+          "type": "app",
+          "title": "3814945a-d60a-4f6d-bd83-251f0aa942ba",
+          "fullId": "3814945a-d60a-4f6d-bd83-251f0aa942ba"
+        },
+        {
+          "id": "ec533e1f-2da1-4572-8452-cf0cbbec13dc",
+          "type": "app",
+          "title": "ec533e1f-2da1-4572-8452-cf0cbbec13dc",
+          "fullId": "ec533e1f-2da1-4572-8452-cf0cbbec13dc"
+        },
+        {
+          "id": "0cd501e6-dbb1-4484-bb15-535847b8cb7d",
+          "type": "app",
+          "title": "0cd501e6-dbb1-4484-bb15-535847b8cb7d",
+          "fullId": "0cd501e6-dbb1-4484-bb15-535847b8cb7d"
+        },
+        {
+          "id": "9cc6c9bd-f675-4d15-b2b7-2ef2c1c07e29",
+          "type": "app",
+          "title": "9cc6c9bd-f675-4d15-b2b7-2ef2c1c07e29",
+          "fullId": "9cc6c9bd-f675-4d15-b2b7-2ef2c1c07e29"
+        },
+        {
+          "id": "68aa9bc8-c3b4-4ede-9ba4-add2f1b890db",
+          "type": "app",
+          "title": "68aa9bc8-c3b4-4ede-9ba4-add2f1b890db",
+          "fullId": "68aa9bc8-c3b4-4ede-9ba4-add2f1b890db"
+        },
+        {
+          "id": "eb235f28-58a8-42a8-8263-3963eff3c2b8",
+          "type": "app",
+          "title": "eb235f28-58a8-42a8-8263-3963eff3c2b8",
+          "fullId": "eb235f28-58a8-42a8-8263-3963eff3c2b8"
+        },
+        {
+          "id": "1ff6660f-b731-4aa3-96ad-d96ca347341c",
+          "type": "app",
+          "title": "1ff6660f-b731-4aa3-96ad-d96ca347341c",
+          "fullId": "1ff6660f-b731-4aa3-96ad-d96ca347341c"
+        },
+        {
+          "id": "b5117637-81d3-4700-b251-0c1c03e5d286",
+          "type": "app",
+          "title": "b5117637-81d3-4700-b251-0c1c03e5d286",
+          "fullId": "b5117637-81d3-4700-b251-0c1c03e5d286"
+        },
+        {
+          "id": "a3190dc7-6cef-401b-b36f-d0cd6edf5054",
+          "type": "app",
+          "title": "a3190dc7-6cef-401b-b36f-d0cd6edf5054",
+          "fullId": "a3190dc7-6cef-401b-b36f-d0cd6edf5054"
+        },
+        {
+          "id": "18fcb20c-e2b4-4e41-8e59-a4e9d711c7f7",
+          "type": "app",
+          "title": "18fcb20c-e2b4-4e41-8e59-a4e9d711c7f7",
+          "fullId": "18fcb20c-e2b4-4e41-8e59-a4e9d711c7f7"
+        }
+      ]
     },
     {
       "id": "MyPay_role",
@@ -2042,8 +2476,15 @@
       "providerId": null,
       "spaceCount": 0,
       "totalPages": 0,
-      "totalApps": 0,
-      "children": []
+      "totalApps": 1,
+      "children": [
+        {
+          "id": "e0f2f204-b0a9-4e80-bead-1bcff62e358e",
+          "type": "app",
+          "title": "e0f2f204-b0a9-4e80-bead-1bcff62e358e",
+          "fullId": "e0f2f204-b0a9-4e80-bead-1bcff62e358e"
+        }
+      ]
     },
     {
       "id": "~be.nmbs.scm.cardpkg_be.nmbs.scm.zscmcustomcard.tilerole",
@@ -2191,7 +2632,7 @@
       "providerId": null,
       "spaceCount": 1,
       "totalPages": 1,
-      "totalApps": 11,
+      "totalApps": 22,
       "children": [
         {
           "id": "bc24749b-9e81-4b97-9f13-73db523bd188",
@@ -2275,6 +2716,72 @@
               ]
             }
           ]
+        },
+        {
+          "id": "f5dd9541-a826-4551-819a-1ebb5c33bbe3",
+          "type": "app",
+          "title": "f5dd9541-a826-4551-819a-1ebb5c33bbe3",
+          "fullId": "f5dd9541-a826-4551-819a-1ebb5c33bbe3"
+        },
+        {
+          "id": "22ad4c98-ff24-4313-9357-b34a5b540603",
+          "type": "app",
+          "title": "22ad4c98-ff24-4313-9357-b34a5b540603",
+          "fullId": "22ad4c98-ff24-4313-9357-b34a5b540603"
+        },
+        {
+          "id": "cadba79f-f366-4b24-8b2d-55bade4904b0",
+          "type": "app",
+          "title": "cadba79f-f366-4b24-8b2d-55bade4904b0",
+          "fullId": "cadba79f-f366-4b24-8b2d-55bade4904b0"
+        },
+        {
+          "id": "19395605-6789-4542-becb-65999f1a64b2",
+          "type": "app",
+          "title": "19395605-6789-4542-becb-65999f1a64b2",
+          "fullId": "19395605-6789-4542-becb-65999f1a64b2"
+        },
+        {
+          "id": "96956100-5815-453e-aadd-f1b88532522e",
+          "type": "app",
+          "title": "96956100-5815-453e-aadd-f1b88532522e",
+          "fullId": "96956100-5815-453e-aadd-f1b88532522e"
+        },
+        {
+          "id": "5b39a632-2898-4001-898c-7863bd908388",
+          "type": "app",
+          "title": "5b39a632-2898-4001-898c-7863bd908388",
+          "fullId": "5b39a632-2898-4001-898c-7863bd908388"
+        },
+        {
+          "id": "c08bf33c-f85e-4c29-886b-814ac0a0dd6a",
+          "type": "app",
+          "title": "c08bf33c-f85e-4c29-886b-814ac0a0dd6a",
+          "fullId": "c08bf33c-f85e-4c29-886b-814ac0a0dd6a"
+        },
+        {
+          "id": "cb9ba99d-5c6c-48eb-83fc-8b4cae98d856",
+          "type": "app",
+          "title": "cb9ba99d-5c6c-48eb-83fc-8b4cae98d856",
+          "fullId": "cb9ba99d-5c6c-48eb-83fc-8b4cae98d856"
+        },
+        {
+          "id": "cddd7f2c-15b8-415f-9423-696dd66d74de",
+          "type": "app",
+          "title": "cddd7f2c-15b8-415f-9423-696dd66d74de",
+          "fullId": "cddd7f2c-15b8-415f-9423-696dd66d74de"
+        },
+        {
+          "id": "ec43ba42-16bd-49a9-b996-03fe9aa6738e",
+          "type": "app",
+          "title": "ec43ba42-16bd-49a9-b996-03fe9aa6738e",
+          "fullId": "ec43ba42-16bd-49a9-b996-03fe9aa6738e"
+        },
+        {
+          "id": "fa033597-1cc7-412a-a5ec-0da2a0618b0d",
+          "type": "app",
+          "title": "fa033597-1cc7-412a-a5ec-0da2a0618b0d",
+          "fullId": "fa033597-1cc7-412a-a5ec-0da2a0618b0d"
         }
       ]
     },
@@ -3025,7 +3532,7 @@
       "providerId": null,
       "spaceCount": 1,
       "totalPages": 1,
-      "totalApps": 14,
+      "totalApps": 17,
       "children": [
         {
           "id": "c4b665b8-ac51-49a8-9a58-a3e1136788bd",
@@ -3127,6 +3634,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "saas_approuter_zopsmatconapp",
+          "type": "app",
+          "title": "zopsmatconapp",
+          "fullId": "saas_approuter_zopsmatconapp"
+        },
+        {
+          "id": "saas_approuter_com.nmbs.nfcscanning",
+          "type": "app",
+          "title": "com.nmbs.nfcscanning",
+          "fullId": "saas_approuter_com.nmbs.nfcscanning"
+        },
+        {
+          "id": "saas_approuter_be.nmbs.plugins.nfcscanning.nfcscanningplugin",
+          "type": "app",
+          "title": "be.nmbs.plugins.nfcscanning.nfcscanningplugin",
+          "fullId": "saas_approuter_be.nmbs.plugins.nfcscanning.nfcscanningplugin"
         }
       ]
     },
@@ -3138,7 +3663,7 @@
       "providerId": null,
       "spaceCount": 1,
       "totalPages": 1,
-      "totalApps": 14,
+      "totalApps": 17,
       "children": [
         {
           "id": "c4b665b8-ac51-49a8-9a58-a3e1136788bd",
@@ -3240,6 +3765,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "sdm-web_com.sap.ecm.sdm.mobonboard",
+          "type": "app",
+          "title": "com.sap.ecm.sdm.mobonboard",
+          "fullId": "sdm-web_com.sap.ecm.sdm.mobonboard"
+        },
+        {
+          "id": "sdm-web_com.sap.ecm.sdm.user",
+          "type": "app",
+          "title": "com.sap.ecm.sdm.user",
+          "fullId": "sdm-web_com.sap.ecm.sdm.user"
+        },
+        {
+          "id": "sdm-web_com.sap.ecm.sdm.admin",
+          "type": "app",
+          "title": "com.sap.ecm.sdm.admin",
+          "fullId": "sdm-web_com.sap.ecm.sdm.admin"
         }
       ]
     },
@@ -3251,7 +3794,7 @@
       "providerId": null,
       "spaceCount": 1,
       "totalPages": 1,
-      "totalApps": 14,
+      "totalApps": 15,
       "children": [
         {
           "id": "c4b665b8-ac51-49a8-9a58-a3e1136788bd",
@@ -3353,6 +3896,12 @@
               ]
             }
           ]
+        },
+        {
+          "id": "sdm-web_com.sap.ecm.sdm.user",
+          "type": "app",
+          "title": "com.sap.ecm.sdm.user",
+          "fullId": "sdm-web_com.sap.ecm.sdm.user"
         }
       ]
     },
@@ -3364,7 +3913,7 @@
       "providerId": null,
       "spaceCount": 1,
       "totalPages": 1,
-      "totalApps": 14,
+      "totalApps": 15,
       "children": [
         {
           "id": "c4b665b8-ac51-49a8-9a58-a3e1136788bd",
@@ -3466,6 +4015,12 @@
               ]
             }
           ]
+        },
+        {
+          "id": "saas_approuter_be.nmbs.lean.board",
+          "type": "app",
+          "title": "be.nmbs.lean.board",
+          "fullId": "saas_approuter_be.nmbs.lean.board"
         }
       ]
     },
@@ -3477,7 +4032,7 @@
       "providerId": null,
       "spaceCount": 1,
       "totalPages": 1,
-      "totalApps": 14,
+      "totalApps": 20,
       "children": [
         {
           "id": "c4b665b8-ac51-49a8-9a58-a3e1136788bd",
@@ -3579,6 +4134,42 @@
               ]
             }
           ]
+        },
+        {
+          "id": "saas_approuter_be.nmbs.lean.projects",
+          "type": "app",
+          "title": "be.nmbs.lean.projects",
+          "fullId": "saas_approuter_be.nmbs.lean.projects"
+        },
+        {
+          "id": "saas_approuter_be.nmbs.lean.dstum",
+          "type": "app",
+          "title": "be.nmbs.lean.dstum",
+          "fullId": "saas_approuter_be.nmbs.lean.dstum"
+        },
+        {
+          "id": "sdm-web_com.sap.ecm.sdm.mobonboard",
+          "type": "app",
+          "title": "com.sap.ecm.sdm.mobonboard",
+          "fullId": "sdm-web_com.sap.ecm.sdm.mobonboard"
+        },
+        {
+          "id": "sdm-web_com.sap.ecm.sdm.migration",
+          "type": "app",
+          "title": "com.sap.ecm.sdm.migration",
+          "fullId": "sdm-web_com.sap.ecm.sdm.migration"
+        },
+        {
+          "id": "sdm-web_com.sap.ecm.sdm.user",
+          "type": "app",
+          "title": "com.sap.ecm.sdm.user",
+          "fullId": "sdm-web_com.sap.ecm.sdm.user"
+        },
+        {
+          "id": "sdm-web_com.sap.ecm.sdm.admin",
+          "type": "app",
+          "title": "com.sap.ecm.sdm.admin",
+          "fullId": "sdm-web_com.sap.ecm.sdm.admin"
         }
       ]
     },
@@ -3590,7 +4181,7 @@
       "providerId": null,
       "spaceCount": 1,
       "totalPages": 1,
-      "totalApps": 2,
+      "totalApps": 4,
       "children": [
         {
           "id": "4eb4144d-bfb0-414e-9743-f0f4bbab3db8",
@@ -3620,6 +4211,18 @@
               ]
             }
           ]
+        },
+        {
+          "id": "ff83f39c-3822-4a0a-aef8-fe5e4a6632a3",
+          "type": "app",
+          "title": "ff83f39c-3822-4a0a-aef8-fe5e4a6632a3",
+          "fullId": "ff83f39c-3822-4a0a-aef8-fe5e4a6632a3"
+        },
+        {
+          "id": "saas_approuter_zwmsinvcsintvns",
+          "type": "app",
+          "title": "zwmsinvcsintvns",
+          "fullId": "saas_approuter_zwmsinvcsintvns"
         }
       ]
     },
@@ -3631,7 +4234,7 @@
       "providerId": null,
       "spaceCount": 1,
       "totalPages": 1,
-      "totalApps": 1,
+      "totalApps": 2,
       "children": [
         {
           "id": "ad58488e-fc53-4645-8253-491ed828fa94",
@@ -3655,6 +4258,12 @@
               ]
             }
           ]
+        },
+        {
+          "id": "saas_approuter_be.nmbs.zecmmywagons",
+          "type": "app",
+          "title": "be.nmbs.zecmmywagons",
+          "fullId": "saas_approuter_be.nmbs.zecmmywagons"
         }
       ]
     }
